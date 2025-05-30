@@ -12,8 +12,8 @@ const Letterspage = () => {
     <main className="home" ref={container}>
       <div className="letters-container">
         <AnimatedTitle text={"Titolo con animazioni diverse per ogni lettera"}/>
-        <ScrollWrap text={"Tetso che va da destra a sinistra on scroll"} />
         <Carousel />
+        <ScrollWrap text={"Tetso che va da destra a sinistra on scroll"} />
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',

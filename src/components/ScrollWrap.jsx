@@ -44,7 +44,7 @@ const ScrollWrap = ({ text }) => {
         ref={textRef}
         style={{
           display: 'inline-block',
-          paddingLeft: '100vw', // faccio partire il testo da fuori 
+          paddingLeft: '70vw', // faccio partire il testo da fuori 
         }}
       >
         {text}
