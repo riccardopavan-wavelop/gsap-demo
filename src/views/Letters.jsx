@@ -13,7 +13,7 @@ const Letterspage = () => {
       <div className="letters-container">
         <AnimatedTitle text={"Titolo con animazioni diverse per ogni lettera"}/>
         <Carousel />
-        <ScrollWrap text={"Tetso che va da destra a sinistra on scroll"} />
+        <ScrollWrap text={"Testo che va da destra a sinistra on scroll"} />
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',
