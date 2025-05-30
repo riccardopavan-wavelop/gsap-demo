@@ -22,7 +22,7 @@ export default function Router() {
     <div id="smooth-wrapper">
       <div id="smooth-content">
         <Routes>
-          <Route index element={<Letterspage />} />
+          <Route path='gsap-demo/' element={<Letterspage />} />
         </Routes>
       </div>
     </div>
