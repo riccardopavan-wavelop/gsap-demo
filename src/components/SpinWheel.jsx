@@ -19,7 +19,7 @@ const SpinWheel = () => {
   }, []);
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '4rem', flexDirection: 'column' }}>
+    <div style={{ display: 'flex', marginTop: '4rem', flexDirection: 'column' }}>
       <span style={{ textAlign: 'center', fontSize: '24px' }}>Spin me!</span>
       <div
         ref={wheelRef}
